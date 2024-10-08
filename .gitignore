@@ -1,0 +1,55 @@
+# Bytecode-filer
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution-paket
+build/
+dist/
+*.egg-info/
+*.egg
+.eggs/
+
+# Virtuella miljöer
+venv/
+env/
+ENV/
+.venv/
+.virtualenv/
+
+# Pyinstaller-specifika filer
+*.manifest
+*.spec
+
+# Testresultat
+.pytest_cache/
+coverage.xml
+htmlcov/
+.tox/
+.nox/
+
+# MyPy-cache
+.mypy_cache/
+
+# Linter-cache
+pylint.log
+
+# IDE-specifika filer (t.ex. VSCode, PyCharm)
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Loggfiler
+*.log
+
+# Miljövariabler
+.env
+.env.*
+
+# Docker-filer
+docker-compose.yml
+Dockerfile
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
