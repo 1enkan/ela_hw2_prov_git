@@ -1,0 +1,3 @@
+git log
+
+finns lite andra kommandon som --oneline eller --graph
